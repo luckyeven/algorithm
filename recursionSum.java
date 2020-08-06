@@ -10,19 +10,16 @@ public class recursionSum{
 	int sum =0;
 	public recursionSum(int[] list){
 	
-		sum = sum(list);
+		sum = sum(list,0);
 	}
 
-	public int sum(int[] list){
-		if(list.length<2){//base case
+	public int sum(int[] list,int head){
+		if(head == list.length-1){//base case
 
-			return list[0];
-		}else{      //recursive case
-			int[] tmp = new int[list.length-1];
-			for(int i=0; i< tmp.length;i++){
-				tmp[i] = list[i+1];
-			}
-			return list[0] +sum(tmp);
+			return list[head];
+		}else{      //recursive case			
+			
+			return list[head] +sum(list,head+1);
 		}
 		
 	}
