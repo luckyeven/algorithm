@@ -3,6 +3,7 @@ public class main{
 		
 		testbinarySearch();
 		testSelectionSort();
+		testrecursionSum();
 
 
 
@@ -64,6 +65,27 @@ public class main{
 		System.out.println("");
 	
 
+	}
+	public static void testrecursionSum(){
+		System.out.println("");
+		System.out.println("********************");
+		System.out.println("Test recursionsum:");
+		int[] arry = new int [100];
+		for (int i =0;i<100;i++){
+			arry[i] = i*i;
+		}
+
+		int sum = new recursionSum(arry).getSum();
+		System.out.println("the sum for [1,4,9....,99*99]is: "+ sum);
+
+
+		int[] arry2 = new int [10];
+		for (int i =0;i<10;i++){
+			arry2[i] = i;
+		}
+
+		int sum2 = new recursionSum(arry2).getSum();
+		System.out.println("the sum for [0,1,2,3,4,5,6,7,8,9 ]is: "+ sum2);
 	}
 
 
