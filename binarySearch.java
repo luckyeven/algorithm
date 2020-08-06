@@ -21,7 +21,7 @@ public class binarySearch{
 		String ele = String.valueOf(element);
 		for(int i =0 ;i<list.length;i++){
 			tmp[i] = String.valueOf(list[i]);
-			
+
 		}
 		
 		search(tmp,ele);
@@ -34,6 +34,13 @@ public class binarySearch{
 		}
 		search(tmp,ele);
 	}
+	/**
+	* this method print the index of an element in the given 
+	* list.
+	*
+	* @param list the list gonna to search
+	* @param element given element
+	*/
 
 	public void search(String[] list, String element){
 		low =0;
