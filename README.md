@@ -9,9 +9,9 @@ In this repository you will find the most baic alogrithm function or method impl
 
 ## FileStructure
 ----------------
-* [binarySearch.java](#binarySearch.java)
-* [selectionSort.java](#selectionSort.java)
-* [recursionSUm.java](#recursionSum.java)
+* [binarySearch.java](#binarySearchjava)
+* [selectionSort.java](#selectionSortjava)
+* [recursionSUm.java](#recursionSumjava)
 
 
 ### Features
