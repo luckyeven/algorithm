@@ -1,6 +1,6 @@
 Algorithm
 =========
-In this repository you will find most baic alogrithm function or method implemented using JAVA.
+In this repository you will find the most baic alogrithm function or method implemented using JAVA.
 ****
 
 |Author|ssong094@uottawa.ca|
