@@ -4,36 +4,61 @@ public class main{
 		testbinarySearch();
 		testSelectionSort();
 		testrecursionSum();
+		
 
 
 
 	}
-	public static void testbinarySearch(){
+	/*public static void testquickSort(){
 		System.out.println("");
 		System.out.println("********************");
-		System.out.println("Test binarySearch");
+		System.out.println("Test quickSort");
 		int [] list = new int [5];
 		list[0] = 1;
 		list[1] = 3;
 		list[2] = 5;
 		list[3] = 7;
 		list[4] = 9;
+
+		list = new quickSort(list).getArray();
+		System.out.print("sorted list: ");
+		for(int element: list){
+			System.out.print(" "+ element);
+		}
+
+	}*/
+	public static void testbinarySearch(){
+		System.out.println("");
+		System.out.println("********************");
+		System.out.println("Test binarySearch");
+		int [] list = new int [5];
+		list[0] = 1;
+		list[1] = 4;
+		list[2] = 2;
+		list[3] = 7;
+		list[4] = 1;
 		System.out.print("given list: ");
 		for(int element: list){
 			System.out.print(" "+ element);
 		}
-		new binarySearch(list,1);
-		char [] list2 = new char [5];
-		list2[0] = 'a';
-		list2[1] = 'b';
-		list2[2] = 'c';
-		list2[3] = 'd';
-		list2[4] = 'e';
-		System.out.print("given list: ");
-		for(char element: list2){
-			System.out.print(" "+ element+" ");
+		System.out.println("");
+		int key =2;
+		int key2 =3;
+		BinarySearch search = new BinarySearch(list);
+		if(search.contains(key)){
+			System.out.println("2 is in the list");
+		}else{
+			System.out.println("2 is not in the list");
 		}
-		new binarySearch(list2,'h');
+
+		if(search.contains(key2)){
+			System.out.println("3 is in the list");
+		}else{
+			System.out.println("3 is not in the list");
+		}
+
+		
+		
 	}
 	public static void testSelectionSort(){
 		System.out.println("");
