@@ -9,7 +9,7 @@ In this repository you will find the most baic alogrithm function or method impl
 
 ## FileStructure
 ----------------
-* [binarySearch.java](#binarySearchjava)
+* [BinarySearch.java](#binarySearchjava)
 * [selectionSort.java](#selectionSortjava)
 * [recursionSUm.java](#recursionSumjava)
 
@@ -20,9 +20,10 @@ In this repository you will find the most baic alogrithm function or method impl
 
 |Class|Summary|
 |:-----|:---- 
-|binarySearch(*array*,*element*)|binarySearch takes two inputs, an *array* and an *element*. **Print** the index of element in the array to the console.|
+|BinarySearch(*int[] list*)|create an BinarySearch object|
 |Method|
-|search(String[] *list*, String *element*)|this method print the index of an *element* in the given *list*.|  
+|search(int *key*)|return the index of the *key* in the given list. return -1 if key not int the list.|  
+|contains(int *key*)|return true if *key* in the list|
 ---------------------------------------------
 #### selectionSort.java
 |Class|Summary|
